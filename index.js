@@ -10,6 +10,6 @@ app.get("/", async (req, res) => {
 	res.send(await readFile("./home.html", "utf8"));
 });
 
-app.listen(4000, () =>
+app.listen(3000, () =>
 	console.log(`app is available on http://localhost:4000`),
 );
